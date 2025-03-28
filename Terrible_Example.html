@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad CSS Example</title>
+    <style>
+        body {
+            background-color: #ff00ff; /* Too bright and harsh on the eyes */
+            color: #00ff00; /* Poor contrast with the background */
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Unprofessional font choice */
+        }
+        h1 {
+            font-size: 50px; /* Too large */
+            text-align: left; /* Misaligned with other content */
+            margin: 0; /* No spacing around the heading */
+        }
+        p {
+            font-size: 8px; /* Too small to read comfortably */
+            line-height: 1; /* Insufficient line spacing */
+            margin: 0; /* No spacing between paragraphs */
+        }
+        .container {
+            width: 100%; /* Full width, no padding */
+            padding: 0; /* No padding */
+            border: 5px solid red; /* Distracting border */
+        }
+        .button {
+            background-color: yellow; /* Clashing color */
+            color: black; /* Poor contrast */
+            padding: 40px; /* Excessive padding */
+            border: none; /* No border */
+            cursor: pointer; /* Good practice, but doesn't fix the other issues */
+	    margin:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Wbsite</h1>
+        <p>This is a paragraph with some text. Notice how difficult it is to read due to the small font size and poor color contrast.</p>
+        <p>Another paragraph to show the lack of spacing between elements.</p>
+        <button class="button">Click Me!</button>
+<button class="button">Click Me!</button>
+
+
+    </div>
+</body>
+</html>
